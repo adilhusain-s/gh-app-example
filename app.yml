@@ -53,7 +53,7 @@ default_events:
 # the value (for example, write).
 # Valid values are `read`, `write`, and `none`
 default_permissions:
-  Actions: write
+  actions: write
   # Repository creation, deletion, settings, teams, and collaborators.
   # https://developer.github.com/v3/apps/permissions/#permission-on-administration
   # administration: read
